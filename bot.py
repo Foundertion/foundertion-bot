@@ -9,10 +9,10 @@ import httpx
 # ═══════════════════════════════════════════════════════════
 # ENVIRONMENT VARIABLES
 # ═══════════════════════════════════════════════════════════
-TELEGRAM_BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "")
-SUPABASE_URL = os.environ.get("SUPABASE_URL", "")
-SUPABASE_KEY = os.environ.get("SUPABASE_SERVICE_KEY", "")
-CLAUDE_API_KEY = os.environ.get("CLAUDE_API_KEY", "")
+TELEGRAM_BOT_TOKEN = os.environ.get("8896051793:AAGpSj8nZpw07TzGU94lk_mzujCnWXMAcW4", "")
+SUPABASE_URL = os.environ.get("https://fyyxzyiosdkeztdwrxjs.supabase.co", "")
+SUPABASE_KEY = os.environ.get("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImZ5eXh6eWlvc2RrZXp0ZHdyeGpzIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc3OTUxMjYyMywiZXhwIjoyMDk1MDg4NjIzfQ.bA8Y8i6_3Ds7sDjen40xOOBvgAga2zU-1iOgAvylJEQ", "")
+CLAUDE_API_KEY = os.environ.get("Sk-ant-api03-H819Ex52XLE9NusSGfy6BaiYD9cOfvCE2G6nFMo0GlF8h8ymrCcwUEFaUCFnBUqZhhQeBz4CGemOhdAV8zA7PA-0nxmPQAA", "")
 
 if not all([TELEGRAM_BOT_TOKEN, SUPABASE_URL, SUPABASE_KEY, CLAUDE_API_KEY]):
     print("ERROR: Environment variables missing!")
